@@ -161,3 +161,36 @@ body{
   }
 }
 
+/*
+  ====================================================================
+  Footer
+  ====================================================================
+*/
+footer{
+  font-family: $family;
+  background-color: $main_color;
+
+  h3{
+    color: white;
+    text-align: left;
+    font-weight: 300;
+  }
+  a{
+    color: white;
+    text-decoration: underline;
+    &:hover{
+      text-decoration: none;
+      color: $button_color_hover;
+    }
+    img{
+      width: 50px;
+      margin: 8px;
+    }
+  }
+  img{
+    width: 85px;
+  }
+  h6{
+    color: white;
+  }
+}

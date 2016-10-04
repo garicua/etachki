@@ -197,5 +197,37 @@ body hr {
     left: 25%;
   }
 }
+/*
+  ====================================================================
+  Footer
+  ====================================================================
+*/
+footer {
+  font-family: "Open Sans", "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+  background-color: #009e49;
+}
+footer h3 {
+  color: white;
+  text-align: left;
+  font-weight: 300;
+}
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #f35e1b;
+}
+footer a img {
+  width: 50px;
+  margin: 8px;
+}
+footer img {
+  width: 85px;
+}
+footer h6 {
+  color: white;
+}
 
 /*# sourceMappingURL=main.css.map */
