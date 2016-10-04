@@ -1,0 +1,83 @@
+@import "variables";
+@import "mixin";
+@import "_reset";
+
+/*
+  ====================================================================
+  Header
+  ====================================================================
+*/
+
+.boxxx {
+  @include border-radius(10px);
+  height: 100px;
+  width: 100px;
+  border: 1px solid green;
+  background-color: red;
+}
+
+
+
+
+
+/*
+  ====================================================================
+  Main
+  ====================================================================
+*/
+
+body{
+
+  h2{
+    text-align: center;
+    color: $main_color;
+  }
+  h3{
+   text-align: center;
+    color: $text_color;
+   //color: $;
+  }
+  h4{
+     font-weight: 600;
+     margin: 10px 0 -7px 0;
+ }
+  hr{
+     width: 400px;
+     border: 1px solid $line_color;
+ }
+}
+.first{
+  background-color: $back_color;
+  color: $text_color;
+  font-family: $family;
+  .icons{
+    background-image: url(images/icons.png);
+    background-repeat: no-repeat;
+    outline: none;
+    margin-bottom: 40px;
+    padding: 0 80px 10px;
+  }
+  .speed{
+    background-position: 0 -100px;
+  }
+  .simplicity{
+    background-position: 0 10px;
+  }
+  .best_price{
+    background-position: 0 -200px;
+  }
+  .buy{
+    background-position: 0 -310px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  h5{
+    font-size: 12px;
+  }
+  .first{
+    .icons{
+      padding: 0 80px;
+    }
+  }
+}

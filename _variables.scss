@@ -1,0 +1,16 @@
+$main_color:#009e49;
+$family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+$text_color:#575757;
+$back_color: #f3f3f3;
+$back_color2: #ececec;
+$line_color: #a7a7a7;
+$button_color: #f37814;
+$button_color_hover: #f35e1b;
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
