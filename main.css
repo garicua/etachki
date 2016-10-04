@@ -123,5 +123,79 @@ body hr {
     padding: 0 80px;
   }
 }
+.second {
+  font-family: "Open Sans", "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+  background-color: #ececec;
+}
+.second h2 {
+  margin-top: 80px;
+}
+.second h4 {
+  margin-top: 50px;
+}
+.second h5 {
+  padding-right: 30px;
+}
+.second .icons {
+  margin-top: 50px;
+  background-image: url(images/icons_step.png);
+  background-repeat: no-repeat;
+  outline: none;
+  padding: 0;
+}
+.second .first_step {
+  background-position: 0 -255px;
+}
+.second .second_step {
+  background-position: 0 -500px;
+}
+.second .third_step {
+  background-position: 0 -750px;
+}
+.second .fourth_step {
+  background-position: 0 -960px;
+}
+.second .fifth_step {
+  background-position: 0 0;
+}
+
+@media only screen and (max-width: 750px) {
+  .second .icons {
+    padding: 1px 150px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .second .icons {
+    padding: 0px 100px;
+  }
+}
+.third {
+  background-color: #ececec;
+  font-family: "Open Sans", "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+  height: 150px;
+}
+.third a {
+  color: white;
+  background-color: #f37814;
+  text-align: center;
+  padding: 15px;
+  font-size: 17px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  position: absolute;
+  left: 40%;
+}
+.third a:hover {
+  color: white;
+  background-color: #f35e1b;
+}
+
+@media only screen and (max-width: 750px) {
+  .third a {
+    left: 25%;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

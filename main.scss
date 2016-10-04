@@ -81,3 +81,83 @@ body{
     }
   }
 }
+
+.second{
+  font-family: $family;
+  background-color: $back_color2;
+  h2{
+    margin-top: 80px;
+  }
+  h4{
+    margin-top: 50px;
+
+  }
+  h5{
+    padding-right: 30px;
+  }
+  .icons {
+    margin-top: 50px;
+    background-image: url(images/icons_step.png);
+    background-repeat: no-repeat;
+    outline: none;
+    padding: 0;
+  }
+
+  .first_step{
+    background-position: 0 -255px;
+  }
+  .second_step{
+    background-position: 0 -500px;
+  }
+  .third_step{
+    background-position: 0 -750px;
+  }
+  .fourth_step{
+    background-position: 0 -960px;
+  }
+  .fifth_step{
+    background-position: 0 0;
+  }
+}
+@media only screen and (max-width: 750px){
+.second{
+  .icons{
+    padding: 1px 150px;
+  }
+  }
+}
+@media only screen and (max-width: 500px){
+  .second{
+    .icons{
+      padding: 0px 100px;
+    }
+  }
+}
+
+.third{
+  background-color: $back_color2;
+  font-family: $family;
+  height: 150px;
+  a{
+    color: white;
+    background-color: $button_color;
+    text-align: center;
+    padding: 15px;
+    font-size: 17px;
+    @include border-radius(10px);
+    position: absolute;
+    left: 40%;
+    &:hover{
+      color: white;
+      background-color: $button_color_hover;
+    }
+  }
+}
+@media only screen and (max-width: 750px){
+  .third{
+    a{
+      left: 25%;
+    }
+  }
+}
+
